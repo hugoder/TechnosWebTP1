@@ -17,6 +17,26 @@ body{
     font-family: 'Playfair Display', serif;
     
 }
+@keyframes example {
+    from {background-color: #554475}
+    to {background-color: #E2E9DE}
+  }
+.titre{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    width: 500px;
+    height: 30px;
+    margin: 40px 240px;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+.stitre{
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+}
 
 .menu{
     list-style:none;
@@ -78,4 +98,3 @@ input[type=text], select {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
